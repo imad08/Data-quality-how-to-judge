@@ -1,6 +1,6 @@
 # Data-quality-how-to-judge
 Outlier detection is an important problem with several applications.
-The goal in outlier detection is to nd those data points that contain
+The goal in outlier detection is to find those data points that contain
 useful information on abnormal behavior of the system described
 by the data. Such data points are a small percentage of the total
 population and identifying and understanding them accurately is
