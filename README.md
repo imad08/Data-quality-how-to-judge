@@ -5,7 +5,7 @@ Credit-card fraud detection is one such case that is often formulated as an outl
 The research paper was written while the authors worked at eBay in timely manner
 
 ## Our Contribution
-What we did was to implement an novel unsupervised clustering-based algorithm on ann-thyroid & credit-card fraud detection dataset to detect outliers based on consistency score of data. We obtained high precision on both datasets and area under the precision-recall curve (AUPRC) was 0.557 & 0.223 on the ann-thyroid and credit-card fraud detection dataset respectively. We further extended the idea on hand written digit dataset after extracting features from image using Resnet-50 and VGG-19.
+What we did was to implement a novel unsupervised clustering-based algorithm on ann-thyroid & credit-card fraud detection dataset to detect outliers based on consistency score of data. We obtained high precision on both datasets and area under the precision-recall curve (AUPRC) was 0.557 & 0.223 on the ann-thyroid and credit-card fraud detection dataset respectively. We further extended the idea on hand written digit dataset after extracting features from image using Resnet-50 and VGG-19.
 
 ## RESNET 
-ResNet uses Batch Normalization at its core. The Batch Normalization adjusts the input layer to increase the performance of the network. The problem of covariate shift is mitigated. ResNet makes use of the Identity Connection, which helps to protect the network from vanishing gradient problem. we extracted features using this architecture 
+ResNet is a neural network model, which uses Batch Normalization at its core. The Batch Normalization layers adjusts the input layer to increase the performance of the network. The problem of covariate shift is mitigated. ResNet makes use of the identity connection, which helps to protect the network from vanishing gradient problem. We extracted the features of our datasets using this architecture. 
